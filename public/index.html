@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BNE Skywatch ✈️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="plane">✈️</div>
+    <h1>What's flying over Brisbane?</h1>
+    <p class="subtitle">Live incoming &amp; outgoing flights at BNE, right now</p>
+    <p class="updated" id="updated">Loading…</p>
+  </header>
+
+  <main>
+    <section class="column">
+      <h2>🛫 Landing at BNE <span class="count" id="incoming-count"></span></h2>
+      <ul class="flight-list" id="incoming-list"></ul>
+    </section>
+
+    <section class="column">
+      <h2>🛬 Leaving BNE <span class="count" id="outgoing-count"></span></h2>
+      <ul class="flight-list" id="outgoing-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data: <a href="https://adsb.lol" target="_blank" rel="noopener">adsb.lol</a> &amp; <a href="https://www.adsbdb.com" target="_blank" rel="noopener">adsbdb.com</a> · refreshes every 15s</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

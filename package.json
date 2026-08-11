@@ -1,0 +1,16 @@
+{
+  "name": "bne-flights",
+  "version": "1.0.0",
+  "description": "Lightweight live incoming/outgoing flight tracker for Brisbane Airport (BNE)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test-api": "node test-api.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["flights", "bne", "adsb"],
+  "author": "",
+  "license": "ISC"
+}

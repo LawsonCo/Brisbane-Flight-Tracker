@@ -1,0 +1,5 @@
+
+> bne-flights@1.0.0 start
+> node server.js
+
+BNE flights app running at http://localhost:3939
