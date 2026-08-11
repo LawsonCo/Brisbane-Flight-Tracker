@@ -2,6 +2,8 @@
 
 Lightweight live tracker for flights landing at / departing from Brisbane Airport (BNE), built with plain Node.js — no frameworks, no build step, no API keys.
 
+Deployed live at: https://brisbane-flight-tracker.onrender.com/
+
 ## Data sources (both free & keyless)
 
 - [adsb.lol](https://adsb.lol) — live ADS-B aircraft positions near a lat/lon point
